@@ -1,0 +1,14 @@
+class Helado {
+
+  String sabor = "Desconocido";
+  bool azucarado = false;
+  double precio = 2.0;
+  String tamano = "Mediano";
+
+  void cobrar(){
+  print("Cobrando el helado de $sabor, tiene un precio de \$$precio");
+}
+}
+
+
+
